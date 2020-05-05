@@ -78,7 +78,11 @@
                 class="form__input"
                 type="text"
                 name="url"
-                pattern="^(http:\/\/www\.|https:\/\/www\.|http:\/\/|https:\/\/)[a-z0-9]+([a-z0-9-]+)*\.[a-z]{2,5}(:[1-9]{1}[0-9]{1,4})?(\/(?!\/)[a-z0-9]*)*?#?$"
+                pattern="^(http:\/\/www\.|https:\/\/www\.|http:\/\/|https:\/\/)
+                          [a-z0-9]+([a-z0-9-]+)*\.[a-z]{2,5}
+                          (:[1-9]{1}[0-9]{1,4})?
+                          (\/(?!\/)[a-z0-9]*)*?
+                          #?$"
                 placeholder="Ваш сайт"
                 required
               />

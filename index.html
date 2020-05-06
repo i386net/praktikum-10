@@ -47,7 +47,7 @@
             <div class="form__field">
               <input
                 class="form__input"
-                type="text"
+                type="email"
                 name="email"
                 pattern="^([A-Za-z]{1}[a-zA-Z0-9_\-\.]+[A-Za-z]{1})@([A-Za-z]{1}[a-zA-Z0-9_\-\.]+[A-Za-z]{1})\.([a-zA-Z]{2,5})$"
                 placeholder="E-Mail"
@@ -64,9 +64,7 @@
                 type="text"
                 name="tel"
                 placeholder="Телефон"
-                pattern="^(\+?\d{11,18})|
-                          (\+7\s?\(?\d{3}\)?[\s-]?\d{3}-\d{2}-\d{2})|
-                          (\+\d{2,3}\s?\(\d{2,3}\)[\s-]\d{3}-\d{2}-\d{2})$"
+                pattern="^(\+?\d{11,18})|(\+7\s?\(?\d{3}\)?[\s-]?\d{3}-\d{2}-\d{2})|(\+\d{2,3}\s?\(\d{2,3}\)[\s-]\d{3}-\d{2}-\d{2})$"
                 minlength="11"
                 maxlength="18"
                 required
@@ -76,7 +74,7 @@
             <div class="form__field">
               <input
                 class="form__input"
-                type="text"
+                type="url"
                 name="url"
                 pattern="^(https?:\/\/(www\.)?)((([\w\d](([\w\d.-]+)*)[\w\d]*\.\w{2,6})|(([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])\.){3}([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5]))(:(?=[1-9])[1-9]([0-9]{1,4})?)?)(\/(?!\/)[\w\d-_?%&=~]*)*?#?$"
                 placeholder="Ваш сайт"
